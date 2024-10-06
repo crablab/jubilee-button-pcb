@@ -1,37 +1,28 @@
-"Source:","C:\Users\Will\Documents\kicad\kicad\jubileev2\jubileev2.sch"
-"Date:","26/12/2020 16:34:26"
-"Tool:","Eeschema (5.1.8)-1"
-"Generator:","C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","47"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
-"C1, C2, C3, ","3","10uF","C","Capacitor_SMD:CP_Elec_5x5.4","Unpolarized capacitor",""
-"C5, ","1","10uF","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol",""
-"C6, C9, C11, C12, ","4","0.1uF","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol",""
-"C7, C8, ","2","47pF","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol",""
-"C10, ","1","4.7uF","C_Small","Capacitor_SMD:C_0805_2012Metric","Unpolarized capacitor, small symbol",""
-"D1, ","1","POWER_LED","LED","LED_SMD:LED_0805_2012Metric","Light emitting diode",""
-"D2, ","1","D_Schottky","D_Schottky","Diode_SMD:D_0805_2012Metric","Schottky diode",""
-"D3, ","1","D","D_Schottky","Diode_SMD:D_0805_2012Metric","Schottky diode",""
-"D4, ","1","ESP_LED","LED","LED_SMD:LED_0805_2012Metric","Light emitting diode",""
-"D5, ","1","D_Small","D_Small","Diode_SMD:D_0805_2012Metric","Diode, small symbol",""
-"F1, ","1","Polyfuse","Polyfuse","Fuse:Fuse_0805_2012Metric","Resettable fuse, polymeric positive temperature coefficient",""
-"H1, H2, H3, H4, ","4","MountingHole_Pad","MountingHole_Pad","MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom","Mounting Hole with connection",""
-"J1, ","1","Barrel_Jack","Barrel_Jack","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002","DC Barrel Jack",""
-"J2, ","1","USB_B_Micro","USB_B_Micro","Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal","USB Micro Type B connector",""
-"J3, ","1","LED_RING_PADS","Conn_01x02_Female","Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm","Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",""
-"Q1, Q2, ","2","MMBT3904","MMBT3904","Package_TO_SOT_SMD:SOT-23","0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23",""
-"Q3, ","1","PZT2222A","PZT2222A","Package_TO_SOT_SMD:SOT-223-3_TabPin2","1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, SOT-223",""
-"R1, ","1","1K","R_Small","Resistor_SMD:R_0805_2012Metric","Resistor, small symbol",""
-"R2, R3, R4, R5, R8, R9, ","6","10K","R_Small","Resistor_SMD:R_0805_2012Metric","Resistor, small symbol",""
-"R6, R7, ","2","27","R","Resistor_SMD:R_0805_2012Metric","Resistor",""
-"R10, ","1","5K6","R","Resistor_SMD:R_0805_2012Metric","Resistor",""
-"R11, ","1","50","R","Resistor_SMD:R_0805_2012Metric","Resistor",""
-"R12, ","1","100R","R","Resistor_SMD:R_0805_2012Metric","Resistor",""
-"SW1, ","1","BOOT","SW_Push","digikey-footprints:Switch_Tactile_SMD_6x6mm","Push button switch, generic, two pins",""
-"SW2, ","1","RESET","SW_Push","digikey-footprints:Switch_Tactile_SMD_6x6mm","Push button switch, generic, two pins",""
-"SW3, ","1","MAIN_BUTTON","SW_Push","Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm","Push button switch, generic, two pins",""
-"U1, ","1","AMS1117-3.3","AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",""
-"U2, ","1","AMS1117-5.0","AMS1117-5.0","Package_TO_SOT_SMD:SOT-223-3_TabPin2","1A Low Dropout regulator, positive, 5.0V fixed output, SOT-223",""
-"U3, ","1","ESP32-WROOM-32D","ESP32-WROOM-32D","RF_Module:ESP32-WROOM-32","RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD",""
-"U4, ","1","FT231XQ","FT231XQ","Package_DFN_QFN:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm","Full Speed USB to Full Handshake UART, QFN-20",""
-"U5, ","1","74HC14","74HC14","digikey-footprints:SOIC-14_W3.9mm","Hex inverter schmitt trigger",""
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C2,C3,C5,C10,C13";"C_0805_2012Metric";6;"10uF";;;
+2;"C12,C6,C7";"C_0805_2012Metric";3;"0.1uF";;;
+3;"D1";"LED_0805_2012Metric";1;"POWER_LED";;;
+4;"D4";"LED_0805_2012Metric";1;"ESP_LED";;;
+5;"F1";"Fuse_1206_3216Metric";1;"Polyfuse";;;
+6;"J3";"SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm";1;"LED_RING_PADS";;;
+7;"Q3";"SOT-223-3_TabPin2";1;"PZT2222A";;;
+8;"R1,R12";"R_0805_2012Metric";2;"2K";;;
+9;"R8,R9,R2";"R_0805_2012Metric";3;"10K";;;
+10;"R10";"R_0805_2012Metric";1;"5K6";;;
+11;"R11";"R_0805_2012Metric";1;"50";;;
+12;"SW3";"SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm";1;"MAIN_BUTTON";;;
+13;"U1";"SOT-223-3_TabPin2";1;"AMS1117-3.3";;;
+14;"U2";"SOT-223-3_TabPin2";1;"AMS1117-5.0";;;
+15;"H1,H2,H3,H4";"MountingHole_3.5mm_Pad_TopBottom";4;"MountingHole_Pad";;;
+16;"D5,D6";"D_SOD-123";2;"D_Small";;;
+17;"C8,C4,C11";"C_0805_2012Metric";3;"100nF";;;
+18;"S2";"FSM2JRT";1;"RESET";;;
+19;"IC2";"SOIC127P600X175-14N";1;"74HC14D,653";;;
+20;"ANT1";"ESP32WROOM32D";1;"ESP32-WROOM-32D";;;
+21;"Q1";"SOT65P230X110-6N";1;"UMH3N";;;
+22;"R3,R4";"R_0805_2012Metric";2;"5.1K";;;
+23;"USB1";"HRO-TYPE-C-31-M-12";1;"HRO-TYPE-C-31-M-12";;;
+24;"U3";"SOIC-16_3.9x9.9mm_P1.27mm";1;"CH340C";;;
+25;"Q2";"SOT-23";1;"AO3400A";;;
+26;"U5";"TO-252-2";1;"78D09LL-TN3-R";;;
+27;"U4";"TSSOP-16_4.4x5mm_P0.65mm";1;"IP2721";;;

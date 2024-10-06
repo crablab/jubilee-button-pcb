@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC14D,653-SamacSys_Parts
+F https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf
+$ENDCMP
+#
+$CMP ESP32-WROOM-32D-SamacSys_Parts
+F https://www.mouser.com/datasheet/2/891/esp32-wroom-32d_esp32-wroom-32u_datasheet_en-1365844.pdf
+$ENDCMP
+#
+$CMP PJ-202A-dk_Barrel-Power-Connectors
+F https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf
+$ENDCMP
+#
+$CMP UMH3N-SamacSys_Parts
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-UMH3N_C62892.pdf
+$ENDCMP
+#
+#End Doc Library
